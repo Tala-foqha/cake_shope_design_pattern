@@ -1,4 +1,6 @@
+import java.util.HashMap;
+
 public interface Observer {
-  public  void notifyObservers(Cake cake);
- 
+    void update(Order order,HashMap<String, Integer> soldCounts);
+     
 }
