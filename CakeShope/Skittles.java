@@ -1,7 +1,7 @@
  public class Skittles extends CondementDecorator{
         Cake cake;
         public Skittles(Cake cake){
-            cake=this.cake;
+            this.cake=cake;
         }
 
         @Override

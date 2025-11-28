@@ -1,5 +1,6 @@
-public abstract class CondementDecorator {
+public abstract class CondementDecorator extends Cake {
     
     public abstract String getDescription();
+   
 
 }

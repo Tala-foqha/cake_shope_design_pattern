@@ -1,16 +1,18 @@
 public class Order {
     private Cake cake;
-    private static int count=1;
-    private int numberOfOrder;
-    public Order(Cake cake){
-cake=this.cake;
-this.numberOfOrder=count++;
+    // Static counter to generate unique order numbers
+     private static  int count=1;
+     private int numberOrder;
+
+    public Order(Cake cake) {
+        this.cake = cake;
+        this.numberOrder = count++;
     }
-public getCake(){
-    return cake();
-}
-public int getnumberOrder(){
-    return numberOfOrder;
-}
+    public Cake getCake() {
+        return cake;
+    }   
+    public  int getNumberOrder() {
+        return numberOrder;
+    }
 
 }

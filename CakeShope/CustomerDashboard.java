@@ -13,14 +13,13 @@ public class CustomerDashboard implements Observer, DisplayElement {
     @Override
     public void update(Order order, HashMap<String, Integer> soldCounts) {
         this.order = order;
-        display();
+        disiplay();
     }
 
     @Override
-    public void display() {
+    public void disiplay() {
         System.out.println("Your order is ready: "
                 + order.getCake().getDescription()
-                + " (Order#" + order.getnumberOrder() + ")");
+                + " (Order#" + order.getNumberOrder() + ")");
     }
-
 }

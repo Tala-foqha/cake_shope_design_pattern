@@ -1,7 +1,7 @@
  public class Cream extends CondementDecorator{
         Cake cake;
         public Cream(Cake cake){
-            cake=this.cake;
+           this.cake=cake;
         }
 
         @Override

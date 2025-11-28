@@ -1,6 +1,6 @@
 public class AppleCake extends Cake {
      public AppleCake(){
-        description="Apple Cake";8    }
+        description="Apple Cake";    }
     
 
     @Override
